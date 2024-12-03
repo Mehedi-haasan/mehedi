@@ -12,7 +12,7 @@ const About = () => {
   return (
     <div name='about'>
       <div className='bg-black py-5 md:ml-0'>
-        <div className="flex justify-between items-center w-full md:w-[90%] lg:w-[70%] mx-auto py-10">
+        <div className="flex justify-between items-center w-full md:w-[90%] lg:w-[75%] mx-auto py-10">
           <div className=''>
             <h5 className='text-white'>Hello i am</h5>
             <h1 className="font-bold text-white text-3xl py-1">Mehedi hasan</h1>
@@ -21,13 +21,13 @@ const About = () => {
               Contact
             </button>
             <div className="flex justify-start items-center gap-0">
-              <a href="igdyu">
+              <a href="https://www.facebook.com/profile.php?id=100009684126239">
                 <Icon icon="logos:facebook" className="social-i " />
               </a>
               <a href="ifhysd">
                 <Icon icon="logos:twitter" className="social-i" />
               </a>
-              <a href="uhfyrf">
+              <a href="https://www.instagram.com/mehedi5149/">
                 <Icon icon="skill-icons:instagram" className="social-i" />
               </a>
               <a href="lhfyf">
@@ -42,14 +42,14 @@ const About = () => {
 
         <h1 className='text-white text-2xl lg:text-5xl font-bold text-center py-10'>How I Work</h1>
 
-        <div className='grid grid-cols-10 w-full pb-20 md:w-[90%] lg:w-[70%] mx-auto text-white'>
+        <div className='grid grid-cols-10 w-full pb-20 md:w-[90%] lg:w-[75%] mx-auto text-white'>
 
           <div className='grid col-span-10 lg:col-span-2 '>
             <div className='bg-[#06D889] h-16 w-16 rounded-full justify-center flex item-center text-white mx-auto'>
-              <img src={image2} alt='ihhd' className='h-10 w-10 p-auto  mt-3' />
+              <img src={image2} alt='ihhd' className='h-10 w-10 p-auto mt-3' />
             </div>
-            <h1 className='text-lg p-3 font-semibold'>Requirements Gathering.</h1>
-            <p className='p-3 text-[#b5b5b5]'>Interdum et malesuada fames acchiv Etiam europeat nibhona elementum, accumsan ona.</p>
+            <h1 className='text-lg p-1 font-semibold'>Requirements Gathering.</h1>
+            <p className='p-1 text-[#b5b5b5]'>Interdum et malesuada fames acchiv Etiam europeat nibhona elementum, accumsan ona.</p>
           </div>
 
           <div className='grid col-span-10 lg:col-span-2'>

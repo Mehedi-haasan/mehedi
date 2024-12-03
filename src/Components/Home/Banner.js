@@ -5,8 +5,8 @@ import image from '../Image/hero.png'
 const Banner = () => {
   return (
     <div name='home'>
-      <div className="hero hero-one text-white py-4">
-        <div className="container mx-auto hero-content grid grid-cols-1 lg:grid-cols-2">
+      <div className="hero-one text-white py-4">
+        <div className="mx-auto flex justify-between w-full md:w-[90%] lg:w-[75%] px-2">
           <div>
             <h1 className="text-6xl font-bold text-text white hero-text-head">
               Set Your <span className="business">Business</span>
@@ -27,9 +27,9 @@ const Banner = () => {
       </div>
 
 
-      <div className="creative-design py-3">
+      <div className="creative-design py-3 ">
         <div className="hero potentials">
-          <div className="container mx-auto hero-content grid grid-cols-1 lg:grid-cols-2">
+          <div className="container mx-auto w-full md:w-[90%] lg:w-[75%] px-2 py-4 grid grid-cols-1 lg:grid-cols-2">
             <div>
               <h1 className="text-6xl font-bold text-white potential-text-head">
                 Unlock The <span className="potential">Potential</span> Of{" "}
@@ -43,7 +43,7 @@ const Banner = () => {
                 sed enim ullamcorper condimentum. Creative Strategy Unique
                 Production Rebranding Design Corporate Identity
               </p>
-              <hr/>
+              <hr  />
               <div class="grid grid-cols-1 lg:grid-cols-2 mt-[10px]">
                 <div className="items-design">
                   <h6 className="flex"><Icon icon="solar:star-bold" width="20px" className="mx-1 mt-2 text-[#06D889]"/> <span className="text-white ml-[5px]">Creative Strategy</span></h6>

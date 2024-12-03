@@ -26,7 +26,7 @@ const Header = () => {
 
       <div className="flex justify-between items-center px-5 lg:px-0 w-full md:w-[90%] lg:w-[75%] mx-auto">
         <div className="">
-          <NavLink className='flex md:ml-10 lg:ml-20 text-white font-bold text-4xl' onClick={() => { scroll.scrollToTop(); toggleOpen() }}>
+          <NavLink className='flex text-white font-bold text-4xl' onClick={() => { scroll.scrollToTop(); toggleOpen() }}>
             Mehedi hasan
           </NavLink>
         </div>

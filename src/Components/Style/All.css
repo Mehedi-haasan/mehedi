@@ -34,7 +34,6 @@
   height:120px;
   float: right;
   margin-right:140px;
-
 }
 .hero-img-div{
   margin-left:100px;
@@ -187,11 +186,11 @@
     margin-top:10px;
 }
 .address-icon {
-  color: #06D889;
+  border: 2px solid #06d889;
   border-radius: 50%;
-  border: 1px solid #06D889;
-  font-size: 20px !important;
-  padding: 2px;
+  color: #06d889;
+  font-size: 22px !important;
+  padding: 3px;
 }
 .p-text{
   font-size: 16px;
