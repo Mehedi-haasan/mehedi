@@ -25,13 +25,13 @@ const About = () => {
                 <a href="https://www.facebook.com/profile.php?id=100009684126239">
                   <Icon icon="logos:facebook" className="social-i " />
                 </a>
-                <a href="ifhysd">
+                <a href="https://x.com/mrmehedihaasan">
                   <Icon icon="logos:twitter" className="social-i" />
                 </a>
                 <a href="https://www.instagram.com/mehedi5149/">
                   <Icon icon="skill-icons:instagram" className="social-i" />
                 </a>
-                <a href="lhfyf">
+                <a href="https://web.whatsapp.com/">
                   <Icon icon={"logos:whatsapp-icon"} className="social-i" />
                 </a>
               </div>
