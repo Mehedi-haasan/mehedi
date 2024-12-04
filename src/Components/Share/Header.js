@@ -15,7 +15,7 @@ const Header = () => {
 
     <div className="navbar bg-black">
       {<div className="h-full bg-black">
-        <ul className={`md:flex absolute md:static transition-all ease-in duration-700 top-[75px] bg-[#22262A] md:bg-gray-100 md:hidden w-full p-3 left-0 space-x-4 ${open ? "left-0" : "left-[-750px]"}`}>
+        <ul className={`absolute md:static transition-all ease-in duration-700 top-[75px] bg-[#22262A] md:bg-gray-100 md:hidden w-full p-3 left-0 space-x-4 ${open ? "left-0" : "left-[-750px]"}`}>
           <li><Link activeClass="active" to='home' onClick={toggleOpen} spy={true} smooth={true} duration={300} className="cursor-pointer text-white text-xl py-2 ml-4 font-bold">Home</Link></li>
           <li><Link activeClass="active" to='services' onClick={toggleOpen} spy={true} smooth={true} duration={300} className="cursor-pointer text-white text-xl py-2 font-bold">Project</Link></li>
           <li><Link activeClass="active" to='about' onClick={toggleOpen} spy={true} smooth={true} duration={300} className="cursor-pointer text-white text-xl py-2 font-bold">About</Link></li>

@@ -13,15 +13,15 @@ const Contact = () => {
 
   const handleSubmit = async () => {
     console.log(values);
-    const response = await fetch(`http://localhost:8050/api/create/contact`, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(values),
-    });
-    const data = await response.json();
-    alert(data.message)
+    // const response = await fetch(`http://localhost:8050/api/create/contact`, {
+    //   method: 'POST',
+    //   headers: {
+    //     'Content-Type': 'application/json',
+    //   },
+    //   body: JSON.stringify(values),
+    // });
+    // const data = await response.json();
+    // alert(data.message)
   };
 
 
@@ -96,10 +96,7 @@ const Contact = () => {
                         className="border-[1px] w-full p-2 bg-gray-100 my-1 rounded-lg"
                         placeholder="Full Name"
                         name="Fname"
-                        onChange={(e) => {
-                          setValues({ ...values, first_name: e.target.value });
-                        }}
-                      />
+                        onChange={(e) => { setValues({ ...values, first_name: e.target.value })}}/>
                     </div>
                     <div className="">
                       <input
