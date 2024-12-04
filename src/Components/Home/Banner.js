@@ -5,7 +5,7 @@ import image from '../Image/hero.png'
 const Banner = () => {
   return (
     <div name='home'>
-      <div className="hero-one text-white py-4">
+      <div className="hero-one text-white py-4 lg:py-6">
         <div className="mx-auto flex justify-between w-full md:w-[90%] lg:w-[75%] px-2">
           <div>
             <h1 className="text-6xl font-bold text-text white hero-text-head">
@@ -29,7 +29,7 @@ const Banner = () => {
 
       <div className="creative-design py-3 ">
         <div className="hero potentials">
-          <div className="container mx-auto w-full md:w-[90%] lg:w-[75%] px-2 py-4 grid grid-cols-1 lg:grid-cols-2">
+          <div className="mx-auto w-full md:w-[90%] lg:w-[75%] px-2 py-4 grid grid-cols-1 lg:grid-cols-2">
             <div>
               <h1 className="text-6xl font-bold text-white potential-text-head">
                 Unlock The <span className="potential">Potential</span> Of{" "}

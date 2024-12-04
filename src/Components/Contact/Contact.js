@@ -28,7 +28,7 @@ const Contact = () => {
   return (
     <div name="contact">
       <div className="contact-us">
-        <div className="flex justify-between items-start w-full md:w-[90%] lg:w-[75%] mx-auto ">
+        <div className="lg:flex justify-between items-start w-full md:w-[90%] lg:w-[75%] mx-auto ">
           <div className="contact-first pl-2 py-10 my-10">
             <div className="mt-[20px]">
               <h5 className="potential">CONTACT WITH ME</h5>
@@ -78,21 +78,22 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <div className="flex justify-end items-end">
+          <div className="flex justify-center lg:justify-end items-end">
             <div className="contact-second shadow-2xl py-10 my-10">
               <div className="w-full bg-[#1C2426] rounded-md mt-[20px]">
                 <h3 className="text-center text-white text-3xl py-10"> Make a Free Consulting</h3>
                 <hr />
 
-                <div className="col-span-12 md:col-span-6 ml-3 md:ml-4">
+
+                <div className="col-span-12 md:col-span-6 mx-3">
                   <h1 className="text-2xl lg:text-2xl ml-1 text-white italic my-3 ">
                     To get a free consultation please leave your questions.
                   </h1>
-                  <div className="grid md:grid-cols-2">
+                  <div className="grid md:grid-cols-2 gap-3">
                     <div className="">
                       <input
                         type="name"
-                        className="border-[1px] w-[96%] p-2 bg-gray-100 my-1 rounded-lg"
+                        className="border-[1px] w-full p-2 bg-gray-100 my-1 rounded-lg"
                         placeholder="Full Name"
                         name="Fname"
                         onChange={(e) => {
@@ -103,7 +104,7 @@ const Contact = () => {
                     <div className="">
                       <input
                         type="lname"
-                        className="border-[1px] w-[96%] p-2 bg-gray-100 my-1 rounded-lg"
+                        className="border-[1px] w-full p-2 bg-gray-100 my-1 rounded-lg"
                         placeholder="Last name"
                         name="lname"
                         onChange={(e) => {
@@ -115,7 +116,7 @@ const Contact = () => {
                   <div>
                     <input
                       type="name"
-                      className="border-[1px] w-[96%] lg:w-[98%] p-2 bg-gray-100 my-1 rounded-lg"
+                      className="border-[1px] w-full p-2 bg-gray-100 my-1 rounded-lg"
                       placeholder="Company/Organization"
                       name="company"
                       onChange={(e) => {
@@ -127,7 +128,7 @@ const Contact = () => {
                   <div>
                     <input
                       type="name"
-                      className="border-[1px] w-[96%] lg:w-[98%] p-2 bg-gray-100 my-1 rounded-lg"
+                      className="border-[1px] w-full p-2 bg-gray-100 my-1 rounded-lg"
                       placeholder="Email"
                       name="Email"
                       onChange={(e) => {
@@ -138,7 +139,7 @@ const Contact = () => {
                   <div>
                     <input
                       type="phone"
-                      className="border-[1px] w-[96%] lg:w-[98%] p-2 bg-gray-100 my-1 rounded-lg"
+                      className="border-[1px] w-full p-2 bg-gray-100 my-1 rounded-lg"
                       placeholder="Phone"
                       name="phone"
                       onChange={(e) => {
@@ -151,7 +152,7 @@ const Contact = () => {
                     <textarea
                       type="text"
                       placeholder="Type Your Message"
-                      className="border-[1px] w-[96%] md:w-[98%] h-[130px] bg-gray-100 p-2 my-2 rounded-lg"
+                      className="border-[1px] w-full h-[130px] bg-gray-100 p-2 my-2 rounded-lg"
                       name="Message"
                       onChange={(e) => {
                         setValues({ ...values, message: e.target.value });

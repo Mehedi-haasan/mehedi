@@ -25,7 +25,7 @@ const Services = () => {
           <div className="container grid grid-cols-12 gap-4 lg:mt-[70px] p-2 w-full mx-auto">
 
 
-            {/* {
+            {
               data?.map((item) => {
                 return <div className="card w-[330px] lg:w-[350px] xl:w-[360px] grid col-span-12  md:col-span-6 xl:col-span-4 service-item-card my-4 py-2">
                   <div className="icon pt-5 pl-8">
@@ -74,16 +74,16 @@ const Services = () => {
                   </div>
                 </div>
               </div>
-            </div> */}
+            </div>
 
 
-            <div className="grid col-span-12 md:col-span-6 xl:col-span-4 border border-white px-8 py-5 rounded-lg w-full">
+            {/* <div className="grid col-span-12 md:col-span-6 xl:col-span-4 2xl:col-span-3 px-8 py-5 rounded-2xl w-full shadow-2xl service-item-card">
               <div class="icon">
                 <SoftDev />
               </div>
 
               <div className="">
-                <h2 className="text-2xl text-white text-left py-3"> Charitable Donation</h2>
+                <h2 className="text-2xl text-white font-bold text-left py-3"> Charitable Donation</h2>
                 <p className="text-white text-left py-1">
                   Web development is the process of creating websites and web
                   applications for the internet or intranet.
@@ -97,7 +97,8 @@ const Services = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
+
           </div>
         </div>
 
