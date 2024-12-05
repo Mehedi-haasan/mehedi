@@ -1,7 +1,8 @@
 import { NavLink } from "react-router-dom";
 import { Link, animateScroll as scroll } from 'react-scroll';
 import { useState } from "react";
-import MehediCv from '../Image/MehediResume.pdf'
+import MehediCv from '../Image/MehediResume.pdf';
+import logu from '../Image/lo.png'
 
 
 
@@ -25,8 +26,9 @@ const Header = () => {
 
       <div className="flex justify-between items-center w-full md:w-[90%] lg:w-[75%] mx-auto">
         <div className="">
-          <NavLink className='flex text-white font-bold text-4xl' onClick={() => { scroll.scrollToTop(); toggleOpen() }}>
-            Mehedi <span className="hidden md:block pl-2">hasan</span>
+          <NavLink className='flex justify-start items-center text-white font-bold text-4xl' onClick={() => { scroll.scrollToTop(); toggleOpen() }}>
+            <img src={logu} alt="dryhrt" className="h-7 w-7"/>
+            <span className="pl-1 pt-[1px]">Mehedi</span>
           </NavLink>
         </div>
         <div className="hidden md:flex">
