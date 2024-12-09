@@ -1,6 +1,6 @@
 import "../Style/All.css"
 import { Icon } from "@iconify/react";
-import image from '../Image/hero.png'
+import image from '../Image/about.png'
 
 const Banner = () => {
   return (
@@ -21,7 +21,7 @@ const Banner = () => {
             </p>
           </div>
           <div class="hero-img-div">
-            {/* <img src={image} alt="sg" className="rounded max-h-[450px] max-w-[400px]"/> */}
+            <img src={image} alt="sg" className="rounded max-h-[500px] max-w-[450px]"/>
           </div>
         </div>
       </div>

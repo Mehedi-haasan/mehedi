@@ -78,10 +78,10 @@ const Services = () => {
                 </p>{" "}
                 <div className="card-actions pt-2">
                   <div className="service-item-button">
-                    <NavLink to="/workflow">
+                    <a href="https://play.google.com/store/apps/details?id=com.qcandroidfull&hl=en">
                       <LearnMore />
                       <span className="text-white font-bold flex btn-text">Learn More<Icon icon="maki:arrow" width='15px' className="font-bold mt-1 ml-1" /></span>
-                    </NavLink>
+                    </a>
                   </div>
                 </div>
               </div>
