@@ -71,10 +71,10 @@ const Services = () => {
 
               <div className="px-8 py-5">
                 <h2 className="text-2xl text-left font-bold text-white">
-                  Charitable Donation
+                Qatar Charity
                 </h2>
                 <p className="text-white service-item-text pt-2">
-                  <span className="font-semibold">Charitable Donation</span> is an Android application where donors and receivers can engage on a single platform. Donors can contribute money to their favorite charitable foundations.
+                  <span className="font-semibold">Qatar Charity</span> is an Android application where donors and receivers can engage on a single platform. Donors can contribute money to their favorite charitable foundations.
                 </p>{" "}
                 <div className="card-actions pt-2">
                   <div className="service-item-button">
