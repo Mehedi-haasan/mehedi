@@ -56,8 +56,8 @@ const About = () => {
                 <a href="https://www.instagram.com/mehedi5149/">
                   <Icon icon="skill-icons:instagram" className="social-i" />
                 </a>
-                <a href="https://web.whatsapp.com/">
-                  <Icon icon={"logos:whatsapp-icon"} className="social-i" />
+                <a href="https://www.linkedin.com/in/mehedi-hasan-0aa7b62b5/">
+                  <Icon icon={"logos:linkedin-icon"} className="social-i" />
                 </a>
               </div>
             </div>

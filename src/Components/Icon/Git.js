@@ -2,7 +2,7 @@ import React from 'react';
 
 const Git = () => {
     return (
-        <svg  className="cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 256 256">
+        <svg  className="cursor-pointer hover:h-[45px] hover:w-[45px]" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 256 256">
             <g fill="none">
                 <rect width="256" height="256" fill="#f03c2e" rx="60" />
                 <g clip-path="url(#skillIconsGit0)">

@@ -28,7 +28,7 @@ const Contact = () => {
   return (
     <div name="contact">
       <div className="contact-us">
-        <div className="lg:flex justify-between items-start w-full md:w-[90%] lg:w-[75%] mx-auto ">
+        <div className="lg:flex justify-between items-start w-full md:w-[90%] lg:w-[75%] mx-auto">
           <div className="contact-first pl-2 py-10 my-10">
             <div className="mt-[20px]">
               <h5 className="potential">CONTACT WITH ME</h5>
@@ -72,8 +72,8 @@ const Contact = () => {
                 <a href="https://www.instagram.com/mehedi5149/">
                   <Icon icon="skill-icons:instagram" className="social-i" />
                 </a>
-                <a href="https://web.whatsapp.com/">
-                  <Icon icon={"logos:whatsapp-icon"} className="social-i" />
+                <a href="https://www.linkedin.com/in/mehedi-hasan-0aa7b62b5/">
+                  <Icon icon={"logos:linkedin-icon"} className="social-i" />
                 </a>
               </div>
             </div>
