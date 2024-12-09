@@ -6,7 +6,7 @@ const Banner = () => {
   return (
     <div name='home'>
       <div className="hero-one text-white py-4 lg:py-6">
-        <div className="mx-auto flex justify-between w-full md:w-[90%] lg:w-[75%] px-2">
+        <div className="mx-auto grid grid-cols-1 md:grid-cols-2 w-full md:w-[90%] lg:w-[75%] px-2">
           <div>
             <h1 className="text-6xl font-bold text-text white hero-text-head">
               Set Your <span className="business">Business</span>
@@ -21,7 +21,7 @@ const Banner = () => {
             </p>
           </div>
           <div class="hero-img-div">
-            <img src={image} alt="sg" className="rounded max-h-[450px] max-w-[400px]"/>
+            {/* <img src={image} alt="sg" className="rounded max-h-[450px] max-w-[400px]"/> */}
           </div>
         </div>
       </div>
