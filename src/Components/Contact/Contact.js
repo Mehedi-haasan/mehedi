@@ -62,18 +62,18 @@ const Contact = () => {
             <div className="follow mt-[20px]">
               <h3 className="text-white font-bold text-2xl">Follow me</h3>
               <h5 className="p-text">Follow me on Social Network</h5>
-              <div className="social-network flex">
-                <a href="https://www.facebook.com/profile.php?id=100009684126239">
-                  <Icon icon="logos:facebook" className="social-i " />
+              <div className="relative h-12 mt-2">
+                <a href="https://www.facebook.com/profile.php?id=100009684126239" className="absolute top-0 left-0">
+                  <Icon icon="logos:facebook" className="h-[30px] w-[30px] hover:h-[40px] hover:w-[40px]" />
                 </a>
-                <a href="https://x.com/mrmehedihaasan">
-                  <Icon icon="logos:twitter" className="social-i" />
+                <a href="https://x.com/mrmehedihaasan" className="absolute top-0 left-10 hover:left-[37px]">
+                  <Icon icon="logos:twitter" className="h-[35px] w-[35px] hover:h-[40px] hover:w-[40px]" />
                 </a>
-                <a href="https://www.instagram.com/mehedi5149/">
-                  <Icon icon="skill-icons:instagram" className="social-i" />
+                <a href="https://www.instagram.com/mehedi5149/" className="absolute top-0 left-[84px] hover:left-[78px]">
+                  <Icon icon="skill-icons:instagram" className="h-[30px] w-[30px] hover:h-[40px] hover:w-[40px]" />
                 </a>
-                <a href="https://www.linkedin.com/in/mehedi-hasan-0aa7b62b5/">
-                  <Icon icon={"logos:linkedin-icon"} className="social-i" />
+                <a href="https://www.linkedin.com/in/mehedi-hasan-0aa7b62b5/" className="absolute top-0 left-[125px] hover:left-[120px]">
+                  <Icon icon={"logos:linkedin-icon"} className="h-[30px] w-[30px] hover:h-[40px] hover:w-[40px]" />
                 </a>
               </div>
             </div>
@@ -96,7 +96,7 @@ const Contact = () => {
                         className="border-[1px] w-full p-2 bg-gray-100 my-1 rounded-lg"
                         placeholder="Full Name"
                         name="Fname"
-                        onChange={(e) => { setValues({ ...values, first_name: e.target.value })}}/>
+                        onChange={(e) => { setValues({ ...values, first_name: e.target.value }) }} />
                     </div>
                     <div className="">
                       <input
