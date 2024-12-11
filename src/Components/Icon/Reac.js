@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Reac = () => {
+const Reac = ({className=''}) => {
     return (
-        <svg  className="cursor-pointer hover:h-[45px] hover:w-[45px]" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 256 256">
+        <svg  className={className} xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 256 256">
             <g fill="none">
                 <rect width="256" height="256" fill="#242938" rx="60" />
                 <path fill="#00d8ff" d="M128.001 146.951c10.304 0 18.656-8.353 18.656-18.656s-8.352-18.656-18.656-18.656s-18.656 8.353-18.656 18.656s8.353 18.656 18.656 18.656" />

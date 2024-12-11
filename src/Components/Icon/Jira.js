@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Jira = () => {
+const Jira = ({className=''}) => {
     return (
-        <svg className="cursor-pointer hover:h-[45px] hover:w-[45px]" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 256 256">
+        <svg className={className} xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 256 256">
             <defs>
                 <linearGradient id="logosJira0" x1="98.031%" x2="58.888%" y1=".161%" y2="40.766%">
                     <stop offset="18%" stop-color="#0052cc" />

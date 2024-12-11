@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Mongo = () => {
+const Mongo = ({className=''}) => {
     return (
-        <svg  className="cursor-pointer hover:h-[45px] hover:w-[45px]" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 256 256">
+        <svg  className={className} xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 256 256">
             <g fill="none">
                 <rect width="256" height="256" fill="#023430" rx="60" />
                 <path fill="#10aa50" d="M171.173 107.591c-10.537-46.481-32.497-58.855-38.099-67.602A99 99 0 0 1 126.949 28c-.296 4.13-.84 6.73-4.35 9.862c-7.047 6.283-36.977 30.673-39.496 83.486c-2.347 49.242 36.2 79.605 41.292 82.744c3.916 1.927 8.685.041 11.012-1.728c18.581-12.752 43.969-46.75 35.786-94.773" />

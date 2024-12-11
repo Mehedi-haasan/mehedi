@@ -29,7 +29,7 @@ const Contact = () => {
     <div name="contact">
       <div className="contact-us">
         <div className="lg:flex justify-between items-start w-full md:w-[90%] lg:w-[75%] mx-auto">
-          <div className="contact-first pl-2 py-10 my-10">
+          <div className="contact-first pl-3 py-10">
             <div className="mt-[20px]">
               <h5 className="potential">CONTACT WITH ME</h5>
               <h6 className="text-white text-3xl mt-[10px]">
@@ -48,7 +48,7 @@ const Contact = () => {
               </div>
               <div className="flex justify-start items-center gap-1 pt-2">
                 <Icon icon="fluent:call-16-filled" className="address-icon " />
-                <a href="tel:+123456789" className="text-[#b5b5b5]">+8801750834062</a>
+                <a href="tel:+8801750834062" className="text-[#b5b5b5]">+8801750834062</a>
               </div>
 
 
