@@ -17,6 +17,8 @@ import Tail from "../Icon/Tail";
 import Mongo from "../Icon/Mongo";
 import Sql from "../Icon/Sql";
 import Jira from "../Icon/Jira";
+import ClientReview from "../Client/ClientReview";
+
 
 
 const About = () => {
@@ -121,6 +123,8 @@ const About = () => {
 
 
       </div>
+
+      <ClientReview/>
     </div>
   );
 };
